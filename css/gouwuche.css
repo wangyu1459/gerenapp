@@ -1,0 +1,374 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 438581 */
+  src: url('http://at.alicdn.com/t/font_438581_aapo1ufa3ehlg14i.eot');
+  src: url('http://at.alicdn.com/t/font_438581_aapo1ufa3ehlg14i.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_438581_aapo1ufa3ehlg14i.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_438581_aapo1ufa3ehlg14i.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_438581_aapo1ufa3ehlg14i.svg#iconfont') format('svg');
+}
+body{
+	background-color: #f5f5f5;
+}
+.iconfont{
+	font-family: iconfont;
+	font-style: normal;
+}
+.di{
+	width: 100%;
+	height: 0.45rem;
+	background-color: #f0f0f0;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	justify-content: space-between;
+	display: flex;
+	padding-top: 0.09rem;
+	padding-left: 0.25rem;
+	padding-right: 0.25rem;
+	z-index: 999;
+}
+.diicon{
+	float: left;
+	font-size: 0.19rem;
+	color: #5d5f6a;
+}
+.dineirong{
+	width: 0.23rem;
+	height: 0.34rem;
+}
+.dineirong:nth-child(4){
+	margin-left: 0rem;
+}
+.dineirong:nth-child(4) i{
+	color: #f23030;
+} 
+.dineirong:nth-child(4) p{
+	color: #f23030;
+}
+.dineirong p{
+	float: left;
+	font-size: 0.09rem;
+	color: #5d5f6a;
+}
+header{
+	width: 100%;
+	height: 0.45rem;
+	background-color: rgba(255, 255, 255, 1.0);
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	z-index: 999;
+	border-bottom: 1px #e5e5e5 solid;
+	overflow: hidden;
+}
+header h1{
+	font-size: 0.18rem;
+	margin: 0.1rem auto;
+}
+.headericon{
+	font-size: 0.18rem;
+}
+.xiaoxi{
+	font-size: 0.18rem;
+	float: right;
+	position: absolute;
+	right: 0.1rem;
+	top: 0.1rem;
+}
+.shuliang{
+	width: 100%;
+	height: 1.58rem;
+	background-color: white;
+	position: absolute;
+	top: 0.5rem;
+	left: 0;
+	border-top: 0.01rem solid #e0e0e0;
+}
+.shulianghead{
+	float: left;
+	width: 100%;
+	height: 0.44rem;
+	background-color: #f8f8f8;
+}
+.shuliangxuanxiang{
+	float: left;
+	margin-top: 0.09rem;
+	margin-left: 0.1rem;
+	width: 0.19rem;
+	height: 0.19rem;
+	border-radius: 50%;
+	background-color: white;
+}
+.shuliangicon{
+	font-size: 0.2rem;
+	float: left;
+	margin-top: 0.08rem;
+	margin-left: 0.05rem;
+	color: black;
+}
+.shuliang p{
+	font-size: 0.12rem;
+	float: left;
+	margin-top: 0.1rem;
+	color: black;
+}
+.shangpu{
+	width: 100%;
+	height: 1.71rem;
+	background-color: white;
+	position: absolute;
+	top: 0.85rem;
+}
+.shuliangxia{
+	width: 100%;
+	height: 1.13rem;
+	float: left;
+	position: relative;
+}
+.shuliangxuanxiang1{
+	float: left;
+	position: absolute;
+	top: 0.38rem;
+	left: 0.1rem;
+	border-radius: 50%;
+	background-color: white;
+	width: 0.19rem;
+	height: 0.19rem;
+}
+.shangpinneirong{
+	display: block;
+	width: 2.77rem;
+	height: 0.95rem;
+	position: absolute;
+	left: 0.44rem;
+	top: 0.1rem;
+}
+.shangpinneirong img{
+	width: 0.95rem;
+	height: 0.95rem;
+	float: left;
+}
+.shangpinneirong h1{
+	margin-left: 1rem;
+	font-size: 0.13rem;
+	color: black;
+}
+.shangpinneirong h2{
+	margin-left: 1.0rem;
+	margin-top: 0.45rem;
+	font-size: 0.13rem;
+	color: red;
+}
+.shangpinneirong p{
+	float: left;
+	color: #81838e;
+	font-size: 0.1rem;
+	margin-left: 0.06rem;
+}
+.shumu{
+	float: right;
+	margin-top: 0.2rem;
+	margin-right: 0.1rem;
+	width: 0.82rem;
+	height: 0.22rem;
+	border: 0.01rem solid #cccccc;
+}
+.shumuzuo{
+	float: left;
+	height: 0.2rem;
+	width: 0.22rem;
+	border-right: 0.01rem solid #cccccc;
+}
+.shumuicon{
+	font-size: 0.2rem;
+	color: black;
+	float: left;
+	text-align: center;
+	line-height: 0.2rem;
+}
+.shumuyou{
+	float: right;
+	height: 0.2rem;
+	width: 0.22rem;
+	border-left: 0.01rem solid #cccccc;
+}
+.shumuzhong{
+	float: left;
+	height: 0.2rem;
+	width: 0.36rem;
+}
+.shumuzhong p{
+	margin-left: 0.14rem;
+	margin-top: 0rem;
+	font-size: 0.16rem;
+}
+.shuliang1{
+	width: 100%;
+	height: 1.58rem;
+	background-color: white;
+	position: absolute;
+	top: 2.15rem;
+	left: 0;
+	border-top: 0.01rem solid #e0e0e0;
+}
+.shuliang1 p{
+	font-size: 0.12rem;
+	float: left;
+	margin-top: 0.1rem;
+	color: black;
+}
+.shumuzhong1 p{
+	margin-left: 0.14rem;
+	margin-top: 0rem;
+	font-size: 0.16rem;
+}
+.shulianghead1{
+	float: left;
+	width: 100%;
+	height: 0.44rem;
+	background-color: #f8f8f8;
+}
+.shuliang1 p{
+	font-size: 0.12rem;
+	float: left;
+	margin-top: 0.1rem;
+	color: black;
+}
+.shihui{
+	width: 100%;
+	/* height: 2.67rem; */
+	background-color: white;
+	position: absolute;
+	top: 4rem;
+	left: 0;
+	border-radius: 0.05rem 0.05rem  0 0;	
+}
+.shihuineirong-shang{
+	width: 100%;
+	height: 80%;
+/* 	background-color: red; */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.shihuineirong-shang li{
+	width: 50%;
+	height: 50%;
+	background-color: white;
+}
+.shihuineirong-shang a{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+.shihui-wenzi{
+	float: left;
+}
+.shihuineirong-shang a h1{
+	margin-left: 0.05rem;
+	font-size: 0.14rem;
+	color: black;
+}
+.shihuineirong-shang a p{
+	margin-left: 0.05rem;
+	font-size: 0.10rem;
+	color: #d664e1;
+}
+.shihuineirong-shang a img{
+	width: 70%;
+	height: 100%;
+	float: right;
+}
+.xihuanneirong-shang{
+	width: 100%;
+	height: 80%;
+/* 	background-color: red; */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 0.50rem;
+}
+.xihuanneirong-shang li{
+	width: 50%;
+	height: 50%;
+	background-color: white;
+}
+.xihuanneirong-shang a{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+.xihuan-wenzi{
+	float: left;
+}
+.xihuanneirong-shang a h1{
+	margin-left: 0.05rem;
+	font-size: 0.14rem;
+	color: #5d5f6a;
+}
+.xihuanneirong-shang a p{
+	margin-left: 0.05rem;
+	font-size: 0.05rem;
+	color: #d664e1;
+}
+.xihuanneirong-shang a img{
+	width: 100%;
+	height: 80%;
+	float: left;
+}
+.shangcheng-shang h1{
+	float: left;
+	font-size: 0.14rem;
+	margin-left: 1.3rem;
+	color: #ec3ca9;
+}
+.heji{
+	width: 100%;
+	height: 0.45rem;
+	background-color: white;
+	position: fixed;
+	left: 0px;
+	bottom: 0.44rem;
+/* 	padding-top: 0.09rem;
+	padding-left: 0.25rem;
+	padding-right: 0.25rem; */
+	z-index: 999;
+}
+.shuliangxuanxiang2{
+	float: left;
+	position: absolute;
+	top: 0.16rem;
+	left: 0.1rem;
+	border-radius: 50%;
+	background-color: white;
+	width: 0.19rem;
+	height: 0.19rem;
+}
+.heji p{
+	float: left;
+	font-size: 0.12rem;
+	color: #585859;
+	margin-top: 0.17rem;
+	margin-left: 0.35rem;
+}
+.heji h1{
+	float: left;
+	font-size: 0.14rem;
+	color: #585859;
+	margin-top: 0.14rem;
+	margin-left: 0.25rem;
+}
+.jiesuan{
+	float: right;
+	width: 30%;
+	height: 100%;
+	background-color: #f23030; 
+}
+.heji h2{
+	color: white;
+	font-size: 0.16rem;
+	line-height: 0.45rem;
+	margin-left: 0.2rem;
+}

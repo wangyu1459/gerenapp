@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 438581 */
+  src: url('http://at.alicdn.com/t/font_438581_rr2cbuuiu2zz1tt9.eot');
+  src: url('http://at.alicdn.com/t/font_438581_rr2cbuuiu2zz1tt9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_438581_rr2cbuuiu2zz1tt9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_438581_rr2cbuuiu2zz1tt9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_438581_rr2cbuuiu2zz1tt9.svg#iconfont') format('svg');
+}
+body{
+	background-color: #f5f5f5;
+}
+.iconfont{
+	font-family: iconfont;
+	font-style: normal;
+}
+header{
+	width: 100%;
+	height: 0.45rem;
+	background-color: rgba(255, 255, 255, 0.2);
+	display: flex;
+	padding-top: 0.10rem;
+	padding-left: 0.05rem;
+	padding-right: 0.05rem;
+	justify-content: space-between;
+	position: fixed;
+	z-index: 999;
+}
+.saoyisao{
+	display: inline;
+	width: 0.30rem;
+	height: 0.30rem;
+}
+.saoyisao i{
+	float: left;
+	font-size: 0.20rem;	
+	color: #999999;
+	margin-left: 0.05rem;
+	line-height: 0.3rem;
+}
+.saoyisao p{
+	float: left;
+	font-size: 0.007rem;
+	color: white;
+}
+.sousuolan{
+	width: 2.4rem;
+	height: 0.3rem;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 0.15rem;
+	border: none;
+	outline: none;
+}
+.xiaoxi{
+	display: inline;
+	width: 0.30rem;
+	height: 0.30rem;
+}
+.xiaoxi i{
+	float: left;
+	font-size: 0.20rem;	
+	color: #999999;
+	margin-left: 0.05rem;
+}
+.xiaoxi p{
+	float: left;
+	font-size: 0.007rem;
+	color: #999999;
+	margin-left: 0.06rem;
+}
+.fenlei{
+	width: 100%;
+	height: 0.8rem;
+	padding-top: 0.45rem;
+	background-color: white;
+}
+.fenlei ul{
+	width: 100%;
+	height: 100%
+}
+.fenleineirong{
+	float: left;
+	width: 20%;
+	height: 100%
+}
+.fenleineirong a{
+	float: left;
+	line-height: 0.35rem;
+	font-size: 0.12rem;
+	padding-left: 35%;
+	color: #999;
+}
+.fenleineirong:first-child a{
+	color: black;
+}
+.neirong{
+	width: 100%;
+	height: auto;
+	padding: 0 0.05rem 0;
+}
+.neirong ul{
+	width: 100%;
+	height: auto;
+}
+.shangpinneirong{
+	margin-top: 0.05rem;
+	width: 50%;
+	height: auto;
+	background-color: white;
+	float: left;
+}
+.shangpinneirong img{
+	width: 100%;
+	height: 100%;
+}
+.shangpinneirong:nth-child(2n+1){
+	padding-right: 0.02rem;
+}
+.shangpinneirong:nth-child(2n){
+	padding-left: 0.02rem;
+}
+.shangpinneirong p{
+	margin-top: -0.17rem;
+	font-size: 0.12rem;
+	color: black;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.shangpinneirong h1{
+	float: left;
+	font-size: 0.14rem;
+	color: #fe4a4a;
+}
+.shangpinneirong h6{
+	float: right;
+	font-size: 0.12rem;
+	color: #999999;
+	padding-right: 0.08rem;
+}
